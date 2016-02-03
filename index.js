@@ -83,7 +83,7 @@
 
       // If there is a truthy disableOnClickOutside property for this
       // component, don't immediately start listening for outside events.
-      if (!this.props.disableOnClickOutside) {
+      if (!this.props.disabled) {
         this.enableOnClickOutside();
       }
     },
